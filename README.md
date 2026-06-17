@@ -2,14 +2,14 @@
 
 A comprehensive machine learning project for analyzing and classifying bank transaction data using clustering and classification techniques.
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements data science workflows for analyzing bank transactions, including:
 - **Clustering Analysis**: Grouping transactions into distinct patterns using unsupervised learning
 - **Classification Modeling**: Predicting transaction categories using supervised learning approaches
 - **Model Optimization**: Hyperparameter tuning and model selection
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 bank_transactions/
@@ -24,7 +24,7 @@ bank_transactions/
 └── model_clustering.h5                     # Trained clustering model
 ```
 
-## 📊 Key Components
+## Key Components
 
 ### Notebooks
 
@@ -52,7 +52,7 @@ Pre-trained models saved in HDF5 format:
 - `PCA_model_clustering.h5`: PCA transformation model
 - `model_clustering.h5`: Clustering model
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ jupyter notebook
 2. Open `classification.ipynb` to see classification model development
 3. Examine the pre-trained models loaded from `.h5` files
 
-## 📈 Methodology
+## Methodology
 
 ### Clustering Approach
 - Dimensionality reduction using PCA
@@ -97,7 +97,7 @@ jupyter notebook
 - Hyperparameter tuning for optimal performance
 - Model comparison and selection
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Machine Learning**: scikit-learn
 - **Data Processing**: pandas, numpy
@@ -105,20 +105,8 @@ jupyter notebook
 - **Model Serialization**: HDF5 format
 - **Development**: Jupyter Notebook
 
-## 📝 Notes
+## Notes
 
 - All models are pre-trained and saved as `.h5` files
 - Data has been processed and normalized for analysis
 - The project includes both original and inverse-transformed datasets for interpretability
-
-## 📄 License
-
-This project is open source and available on GitHub.
-
-## 👤 Author
-
-**kuzanf3b**
-
----
-
-**Last Updated**: June 2026
